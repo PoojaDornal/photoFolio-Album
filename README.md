@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # photoFolio-Album
 =======
 # Getting Started with Create React App
