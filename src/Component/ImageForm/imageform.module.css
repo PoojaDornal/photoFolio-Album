@@ -1,0 +1,35 @@
+/* input box */
+.inputBox{
+    width: 43%;
+    /* margin-top: 2%; */
+    margin-left: 1%;
+}
+
+/*buttons */
+.btn{
+    margin: 10px;
+    width: 100px;
+    height: 31px;
+    color: white;
+}
+
+/* add button */
+.add{
+    background-color: #2a3287;
+    font-size: 18px;
+}
+
+.add:hover{
+    background-color: aqua;
+    color: black;
+}
+
+/* clear button */
+.clear{
+    background-color:#ff414e;
+    font-size: 18px;
+}
+.clear:hover{
+    background-color: blueviolet;
+    color: black;
+}

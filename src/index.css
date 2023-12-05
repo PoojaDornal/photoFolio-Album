@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% );
+  
+
+
+  background-attachment:fixed;
+}
+
+/* common style for all the heading tags  */
+h1{
+  color:#649dab;
+  font-family: cursive;
+}
+
+h1:hover{
+  color:#12343b;
+}
+
+/* common styles for all the buttons within the page */
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0,0,0,.24);
+}
+
+
+/* common styles for all the inputbox inside the page */
+input{
+  border-radius: 2rem;
+  border: 1px solid black;
+  /* padding-left: 15px; */
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  background-color:white;
+}
+
+
+/* removing border from inputbox */
+input:focus{
+  outline: none;
+}
+
+
+/* for the form Container of album and image */
+.formContainer{
+  text-align: center;
+  height: 170px;
+  width: 70%;
+  margin-top: 2%;
+  background-image: radial-gradient( circle 858.6px at 10% 20%, rgb(127 80 101) 0%, rgb(143 122 157) 90% );
+  border-radius: 10px;
+  box-shadow: -2px 2px 7px 0px grey;
+}
+
+/* lightbox styles */
+
+/* black background */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* container */
+.lightbox-container {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* close button of lightbox to hide image */
+.close-button{
+  position: absolute;
+  float:right;
+  /* top: px; */
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  left: 110%;
+}
+
+/* image inside the lightbox */
+.lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}

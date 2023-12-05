@@ -1,0 +1,59 @@
+/* form container */
+.formContainer{
+    width: auto;
+    height: 40%;
+    background-color: lightgray;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: -2px 2px 7px 0px grey;
+
+}
+h1{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 9%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* input box within the form */
+.input{
+    width: 40%;
+    height: 30%;
+    padding: 12px;
+    margin-left: -10%;
+    background-color: white;
+    /* //margin: 0 2%; */
+}
+
+/* buttons inside the form */
+.formBtn{
+    width: 100px;
+    margin: 0 2%;
+    height: 31px;
+    color: white;
+    font-size: 16px;
+}
+
+/* clear button */
+.clearBtn{
+    background-color:#f95d9b;
+    margin: 12px;
+    font-size: 18px;
+}
+.clearBtn:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+/* add button */
+.addBtn{
+    background-color:#3235b9;
+    margin: 12px;
+    font-size: 18px;
+}
+
+.addBtn:hover{
+    background-color: aqua;
+    color: black;
+}

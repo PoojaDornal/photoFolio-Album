@@ -1,0 +1,39 @@
+/* car container */
+.cardContainer{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px lightgrey;
+    background-color: #777879;
+    padding: 5px 5px 0 5px;
+    color: white;
+    cursor: pointer;
+}
+/* album logo */
+.cardImage{
+    width: 100%;
+    height: 85%;
+    background-image: url("../../Files/images/pictures.png");
+    background-size: cover;
+}
+
+/* album name */
+.cardName{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(17, 180, 125);
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    margin-left: -10px;
+    text-transform: capitalize;
+}
+
+.cardContainer:hover{
+    background-color:#577fdb;
+}
